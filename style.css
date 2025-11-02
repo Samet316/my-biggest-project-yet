@@ -1,0 +1,306 @@
+body {
+    background-color: rgb(251,250,249);
+    margin: 0;
+    font-family: San Francisco, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.site-header {
+    width: auto;
+    display: flex;
+}
+
+.logo {
+    width: 96px;
+    height: 32px;
+    left: 378px;
+    top: 35px;
+    position: relative;
+}
+
+.middle-section {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    width: auto;
+    position: relative;
+    top: 35px;
+    right: 20px;
+    color: rgb(96, 90, 87);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.options {
+    cursor: pointer;
+    transition: background-color .45s cubic-bezier(.6,.6,0,1),color .45s cubic-bezier(.6,.6,0,1);
+    padding: 4px 10px;
+}
+
+.options:hover {
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background-color: #70451a12;
+}
+
+.right-section {
+    position: relative;
+    top: 40px;
+    right: 370px;
+}
+
+.login-button {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .45s cubic-bezier(.6,.6,0,1),color .45s cubic-bezier(.6,.6,0,1);
+    padding: 4px 10px;
+    font-weight: 600;
+    color: rgb(97,91,87);
+}
+
+.login-button:hover {
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background-color: #70451a12;
+}
+
+.site-middle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.pricing-title {
+    font-size: 48px;
+    font-weight: 600;
+    color: rgb(33, 33, 33);
+    margin: 0;
+}
+
+.main-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(96, 90, 87);
+    text-align: center;
+    max-width: 450px;
+    margin-top: 16px;
+}
+
+.choose-your-edition {
+    display: flex;
+    margin-top: 26px;
+}
+
+.monthly-button {
+    border: 0.1rem solid rgb(220,220,220);
+    padding: 10px 50px;
+    font-size: 14px;
+    font-weight: 600;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(255,255,255);
+}
+
+.annually-button {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 0.1rem solid rgb(220,220,220);
+    cursor: pointer;
+    background-color: rgb(255,255,255);
+    padding: 10px 16px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.button-span {
+    background-color: rgb(239,239,236);
+    color: rgb(125,119,114);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+.pricing-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    height: 458px;
+    margin-top: 5px;
+}
+
+.free-plan {
+    border: 0.1rem solid rgb(220,220,220);
+    background-color: rgb(255,255,255);
+    border-radius: 16px;
+    box-shadow: 0 0 0 1px #e3e1de66, 0 1px 2px #5f4a2e14, 0 4px 6px #5f4a2e0a, 0 40px 40px -24px #684b2514, 0 56px 56px -32px #684b2514, 0 24px 40px #684b250a, 0 8px #70451a12 inset;
+}
+
+.premier-plan {
+    border: 0.1rem solid rgb(220,220,220);
+    background-color: rgb(255,255,255);
+    border-radius: 16px;
+    box-shadow: 0 0 0 1px #e3e1de66, 0 1px 2px #5f4a2e14, 0 4px 6px #5f4a2e0a, 0 40px 40px -24px #684b2514, 0 56px 56px -32px #684b2514, 0 24px 40px #684b250a, 0 8px #70451a12 inset;
+}
+
+.platform-plan {
+    border: 0.1rem solid rgb(220,220,220);
+    background-color: rgb(255,255,255);
+    border-radius: 16px;
+    box-shadow: 0 0 0 1px #e3e1de66, 0 1px 2px #5f4a2e14, 0 4px 6px #5f4a2e0a, 0 40px 40px -24px #684b2514, 0 56px 56px -32px #684b2514, 0 24px 40px #684b250a, 0 8px #70451a12 inset;
+}
+
+.enterprise-plan {
+    border: none;
+    background-color: rgb(32,30,30);
+    border-radius: 16px;
+    box-shadow: 0 0 0 1px #e3e1de66,0 1px 2px #5f4a2e14,0 4px 6px #5f4a2e0a,0 40px 40px -24px #684b2514,0 56px 56px -32px #684b2514,0 24px 40px #684b250a,0 8px #4a4340 inset;
+}
+
+.pricing-plan-top {
+    width: 220px;
+    height: 140px;
+    padding-bottom: 23px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+}
+
+.pricing-plan-features {
+    height: 200px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.enterprise-plan-top {
+    height: 140px;
+    width: 220px;
+    padding-bottom: 23px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+}
+
+.enterprise-plan-features {
+    height: 200px;
+    width: 266px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background-color: rgb(36,33,32);
+    border-radius: 16px;
+    color: rgb(255, 255, 255);
+    gap: 10px;
+}
+
+
+.title {
+    font-size: 36px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.clasification {
+    color: rgb(96,91,86);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.popularity {
+    color: white;
+    border: 1px solid rgb(225,103,65);
+    background-color: rgb(225,103,65);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 20px;
+    margin-left: 6px;
+}
+
+.free-button, .platform-button {
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 36px;
+    width: 232px;
+    border: 1px solid rgb(220,220,220);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(255,255,255);
+}
+
+.premier-button {
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 36px;
+    width: 232px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #37322f;
+    color: white;
+}
+
+.enterprise-button {
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 36px;
+    width: 220px;
+    border: 1px solid rgb(70,70,68);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(33,33,33);
+}
+
+.enterprise-area {
+    color: rgb(170,166,164);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.custom-area {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.checkmark {
+    color: rgb(137,133,128);
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+.inline {
+    margin-left: 12px;
+}
