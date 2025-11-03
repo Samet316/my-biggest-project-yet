@@ -1,15 +1,13 @@
-https://index.app/pricing Clone 
+# [Index App Pricing Clone](https://index.app/pricing)
 
-I built https://index.app/pricing clone for exercise purposes.
+I built a clone of [index.app/pricing](https://index.app/pricing) for exercise purposes.
 
-Technologies that I used:
+## 🧠 Technologies Used
+- HTML  
+- CSS  
 
-- HTML
-
-- CSS
-
-How to execute?
-
-https://github.com/Samet316/my-biggest-project-yet.git just go into this link and paste index.html and style.css.
-
-:)
+## ⚙️ How to Run
+Clone the repository and open the files locally:
+```bash
+git clone https://github.com/Samet316/my-biggest-project-yet.git
+cd my-biggest-project-yet
